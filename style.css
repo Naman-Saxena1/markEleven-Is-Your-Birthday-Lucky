@@ -1,0 +1,47 @@
+body
+{
+    background-color: teal;
+    color: white;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+h1
+{
+    text-align: center;
+}
+
+label, input
+{
+    align-self: center;
+    margin:1rem;
+    font-size: x-large;
+}
+
+input
+{
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+#btn-check
+{
+    font-size: large;
+    width: fit-content;
+    margin: auto;
+    padding: 0.4rem;
+    margin-top: 2.5rem;
+    border-radius: 0.4rem;
+}
+
+#result
+{
+    text-align: center;
+    margin-left: 0.6rem;
+    margin-top: 2rem;
+    font-size: x-large;
+}
